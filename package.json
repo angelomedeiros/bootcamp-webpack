@@ -17,7 +17,10 @@
     "webpack-cli": "^3.2.3"
   },
   "scripts": {
-    "start": "webpack",
+    "start": "webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.2.1"
   }
 }
