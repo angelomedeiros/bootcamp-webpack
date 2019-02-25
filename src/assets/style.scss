@@ -1,7 +1,23 @@
+$color-red: rgba(255, 0, 0, 0.89);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background: orangered;
+  background: green;
   background-image: url(../assets/images/nodejs-new-pantone-black.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  h1 {
+    color: $color-red;
+    font-size: 4rem;
+    text-align: center;
+  }
 }
